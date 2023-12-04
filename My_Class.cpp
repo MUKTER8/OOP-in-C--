@@ -4,16 +4,18 @@ class Student{
 public:
       int id;
       double gpa;
+      void display(){
+            cout<<id<<"  "<<gpa<<endl;
+
+      }
 };
 int main(){
 Student Alim,Mukter;
 Alim.id = 101;
 Alim.gpa = 3.14;
-cout<<Alim.id<<"  "<<Alim.gpa<<endl;
-
+Alim.display();
 
 Mukter.id =388;
 Mukter.gpa = 3.94;
-cout<<Mukter.id<<"  "<<Mukter.gpa;
-
+Mukter.display();
 }
